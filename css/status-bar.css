@@ -1,0 +1,15 @@
+.status-bar {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+
+.status-bar i {
+font-size: 16px;
+
+}
+
+.status-bar .fa-battery-three-quarters {
+    margin-left: 10px;
+}
