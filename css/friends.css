@@ -1,0 +1,22 @@
+.friend
+{
+    display: flex;
+    background-color: salmon;
+    justify-content: space-between;
+}
+.friend .chat__column
+{
+    display: flex;
+
+}
+.g-avatar
+{
+    width: 100px;
+    border-radius: 40px;
+}
+
+.friends__avatar.g-avatar.lg
+{
+    width:150px;
+    border-radius: 60px;
+}
