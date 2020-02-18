@@ -1,0 +1,32 @@
+.find .find__header {
+    display: flex;
+    padding-bottom: 40px;
+    justify-content: space-around;
+}
+
+.header--btn__title{
+    display: block;
+}
+.header--btn__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ font-size: 25px;   
+ padding-bottom: 10px;
+}
+.find .find__recommended
+{
+    border-top: 1px solid rgb(199, 199, 202);
+    padding-top: 20px;
+
+}
+.find__recommended .find__title {
+    
+padding-bottom: 20px;
+}
+.friends__add-btn
+{
+    padding: 10px;
+    background-color: rgb(237, 237, 238);
+    border-radius: 10px;
+}

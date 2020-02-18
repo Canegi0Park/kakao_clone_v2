@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body>
+<body class="chats-body">
     <div class="status-bar">
         <div class="status-bar__column">
             <span class="status-bar__clock">13:54</span>
@@ -47,89 +47,47 @@
     </header>
 
 
-    <main class="find">
-        <section class="settings_sections">
-            <ul class="settings__list">
-                <li class="setting__setting">
-                    <span class="setting__icon"> <i class="fas fa-search"></i></span>
-                    <span class="setting__title">asdsa</span>
-                </li>
-                <li class="setting__setting">
-                    <span class="setting__icon"> <i class="fas fa-search"></i></span>
-                    <span class="setting__title">asdsa</span>
-                </li>
-                <li class="setting__setting">
-                    <span class="setting__icon"> <i class="fas fa-search"></i></span>
-                    <span class="setting__title">asdsa</span>
-                </li>
-            </ul>
-
-        </section>
-
-
-
-        <ul class="find__recommended">
-            <h5 class="find__title">Recommended Friends</h5>
-            <li class="find__friend">
-                <div class="find__column">
-                    <img class="find__avatar g-avatar"
-                        src="https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-19/s320x320/72852527_948830602159127_8429341134827814912_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_ohc=dcGemq1DzXoAX8SAwpD&oh=5aee565aa6b5e3bf594c2caa7704879a&oe=5ED136B8"
-                        alt="NO!" />
-                    <div class="find__content">
-                        <span class="find__name">
-                            Kimchi!
-                        </span>
+    <main class="chat">
+        <ul class="chat__messages">
+            <span class="chat__timestamp">Friday, January 11, 2019</span>
+            <li class="incoming-message message">
+                <img src="https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-19/s320x320/72852527_948830602159127_8429341134827814912_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_ohc=dcGemq1DzXoAX8SAwpD&oh=5aee565aa6b5e3bf594c2caa7704879a&oe=5ED136B8" " class="
+                    m-avatar message__avatar" />
+                <div class="message__content">
+                    <span class="message__author">Best Friend</span>
+                    <div class="message__bubble">
+                        Congrats I love you!
                     </div>
                 </div>
-                <div class="find__column">
-                    <i class="fas fa-user-plus"></i>
-                </div>
+                <span class="message__timestamp"></span>
             </li>
-            <li class="find__friend friend">
-                <div class="find__column">
-                    <img class="find__avatar g-avatar"
-                        src="https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-19/s320x320/72852527_948830602159127_8429341134827814912_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_ohc=dcGemq1DzXoAX8SAwpD&oh=5aee565aa6b5e3bf594c2caa7704879a&oe=5ED136B8"
-                        alt="NO!" />
-                    <div class="find__content">
-                        <span class="find__name">
-                            laman!
-                        </span>
-                    </div>
-                </div>
-                <div class="find__column">
-                    <div class="friends__add-btn">
-                        <i class="fas fa-user-plus"></i>
+            <li class="incoming-message message">
+                <span class="message__timestamp"></span>
+                <div class="message__content">
+                    <div class="message__bubble">
+                        Thank you see you soon!
                     </div>
                 </div>
             </li>
         </ul>
-
     </main>
+    <div class="chat__write">
+        <div class="chat__write-column">
+            <i class="far fa-plus-square"></i>
+        </div>
+        <div class="chat__write-column">
+            <input type="text" placeholder="Send message" class="chat__write-input" />
+        </div>
+        <div class="chat__write-column">
+            <span class="chat__write-icon">
+                <i class="far fa-smile-wink"></i>
+            </span>
+            <span class="chat__write-icon">
+                <i class="fas fa-microphone"></i>
+            </span>
+        </div>
+    </div>
 
-    <nav class="nav">
-        <ul class="nav__list">
-            <li class="nav__list-item">
-                <a href="friends.html" class="nav__list-link">
-                    <i class="fas fa-users"></i>
-                </a>
-            </li>
-            <li class="nav__list-item">
-                <a href="index.html" class="nav__list-link">
-                    <i class="far fa-comments"></i>
-                </a>
-            </li>
-            <li class="nav__list-item">
-                <a href="find.html" class="nav__list-link">
-                    <i class="fas fa-search"></i>
-                </a>
-            </li>
-            <li class="nav__list-item">
-                <a href="more.html" class="nav__list-link">
-                    <i class="fas fa-ellipsis-h"></i>
-                </a>
-            </li>
-        </ul>
-    </nav>
 </body>
 
 </html>
